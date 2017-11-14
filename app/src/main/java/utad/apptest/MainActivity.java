@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -22,10 +21,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         listen=new MainActivityListener(this);
         dataholder = new Dataholder();
         listen.setDataholder(dataholder);
@@ -44,10 +46,16 @@ public class MainActivity extends AppCompatActivity {
         tlfnTxt = (EditText) this.findViewById(R.id.tlfnTxt);
         direccionTxt = (EditText) this.findViewById(R.id.direccionTxt);
 
+
         nameTxt.setEnabled(false);
         tlfnTxt.setEnabled(false);
         mailTxt.setEnabled(false);
         direccionTxt.setEnabled(false);
+
+        nameTxt.setText(dataholder.instance.name);
+        mailTxt.setText(dataholder.instance.mail);
+        tlfnTxt.setText(dataholder.instance.telefono);
+        direccionTxt.setText(dataholder.instance.direccion);
     }
 
 
