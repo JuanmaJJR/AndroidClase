@@ -10,26 +10,25 @@
         android:id="@+id/btnAnterior"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ANTERIOR"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
-        app:layout_constraintVertical_bias="0.0"
         android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/btnAnterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/btnSiguiente"
-        android:layout_marginRight="8dp"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnPerfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:layout_marginStart="28dp"
         android:layout_marginTop="7dp"
-        android:text="PERFIL"
+        android:text="@string/btnPerfil"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -63,8 +62,8 @@
                 android:id="@+id/tituloTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="28dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
                 android:ems="10"
                 android:inputType="textPersonName"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -75,9 +74,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:layout_marginStart="28dp"
                 android:layout_marginTop="8dp"
-                android:text="Titulo"
+                android:text="@string/lblTitulo"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -86,9 +84,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
-                android:layout_marginStart="28dp"
                 android:layout_marginTop="8dp"
-                android:text="Texto"
+                android:text="@string/lblTexto"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tituloTxt" />
 
@@ -99,13 +96,13 @@
         android:id="@+id/btnSiguiente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SIGUIENTE"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        android:layout_marginRight="6dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="8dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/btnSiguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
         app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,5 +1,18 @@
 <resources>
     <string name="app_name">AppTest</string>
+    <string name="btnVolver">VOLVER</string>
+    <string name="btnEditar">EDITAR</string>
+    <string name="btnGuardar">GUARDAR</string>
+    <string name="lblTelefono">Telefono</string>
+    <string name="lblEmail">EMAIL</string>
+    <string name="lblDireccion">Direccion</string>
+    <string name="lblNombre">Nombre</string>
+    <string name="lblFI">Fecha de inscripcion</string>
+    <string name="btnPerfil">PERFIL</string>
+    <string name="lblTitulo">Titulo</string>
+    <string name="lblTexto">Texto</string>
+    <string name="btnAnterior">ANTERIOR</string>
+    <string name="btnSiguiente">SIGUIENTE</string>
     <string-array name="titulos">
         <item>¿Que es Lorem Ipsum?</item>
         <item>¿Por que lo usamos?</item>
